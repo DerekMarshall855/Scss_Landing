@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.HASH_REF_4de028134260206e0a78a579950095e0.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <main>
+        <div class="page-wrapper">
+            <div class="col-left">
+                <div class="menu">
+                    <h1>Plus &amp; Nest</h1>
+                    <ol>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li class="active"><a href="#">Blog</a></li>
+                        <li><a href="#">Stock</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ol>
+                </div>
+                <div class="footer">
+                    <div class="top">
+                        <p>Next Up</p>
+                        <img src="/next-arrow-right.HASH_REF_f13f5f60a9dbeba7fae1277f5f8b1fa3.png" alt="Arrow pointing to the right">
+                    </div>
+                    <div class="bottom">
+                        <img src="/chart.HASH_REF_00f64138f63750f046d59192686d62a0.png" alt="Image of a spinning circle">
+                        <img src="/plus.HASH_REF_ac314c80f222c9a101372a3f815f1a43.png" alt="Plus sign">
+                    </div>
+                </div>
+            </div>
+            <div class="col-center">
+                <div class="heading">
+                    <h2>Plus <span>&amp;</span> Nest</h2>
+                    <h3>A <span>Speaker and Headphones</span> in Coexistence</h3>
+                </div>
+                <div class="hero">
+                    <h2>The Private Side of Music</h2>
+                    <div class="actions">
+                        <img src="/eye.HASH_REF_5fbe4261e4352953f5972c762fb84bbf.png" alt="Icon of an eye">
+                        <img src="/share.HASH_REF_fb01273e77a404da927ee38196180a19.png" alt="Icon for sharing">
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="hero2">
+                    <div class="top">
+                        <img src="/search-icon.HASH_REF_59cd6debae26b5af0a2e93a7cd4018f8.png" alt="Search icon">
+                    </div>
+                    <div class="bottom">
+                        <h2>Unified Experience</h2>
+                        <div class="arrows">
+                            <img src="/left-arrow.HASH_REF_e47a728fbd9d5fb1d09a2f9f2cfa5504.png" alt="arrow pointing left">
+                            <img src="/right-arrow.HASH_REF_452b3bcf123cbf6a3d1ace2f51c061a2.png" alt="arrow pointing right">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="left">
+                        <p>This is a bunch of place holder text for the product description or something such as that</p>
+                        <div class="actions">
+                            <div class="likes">
+                                <img src="/like.HASH_REF_b324deafbb8f1398c3c26b95e39e667c.png" alt="Thumb up emoji for likes">
+                                <span>1234</span>
+                            </div>
+                            <div class="share">
+                                <img src="/share.HASH_REF_fb01273e77a404da927ee38196180a19.png" alt="Share icon">
+                                <span>Share</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <h2>Speaker <span>&amp;</span> Headphones</h2>
+                        <p>Coded By:</p>
+                        <p class="author">Derek Marshall</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html><script src="/index.HASH_REF_42412dc50fd44bf0205308ab01a1c8c0.js"></script>

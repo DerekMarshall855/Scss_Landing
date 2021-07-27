@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url(Gilroy-Light.HASH_REF_ecb42eb27ccce071478a6a39a3129601.otf);
+}
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url(Gilroy-ExtraBold.HASH_REF_8d359b77dcc9200ff73e4a259b152a36.otf);
+}
+html {
+  font-size: 14px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gilroy-Light", sans-serif;
+}
+.page-wrapper {
+  display: flex;
+  height: 100vh;
+}
+.page-wrapper .col-left {
+  flex: 1;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.page-wrapper .col-left .menu {
+  flex: 3;
+  padding: 2rem 4rem;
+  overflow: hidden;
+}
+.page-wrapper .col-left .menu h1 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+}
+.page-wrapper .col-left .menu ol {
+  margin: 4rem 0rem;
+  padding: 0rem;
+}
+.page-wrapper .col-left .menu ol li {
+  font-size: 1.2rem;
+  margin: 3rem 0;
+  padding: 0.5rem 0;
+  position: relative;
+  counter-increment: menucounter;
+}
+.page-wrapper .col-left .menu ol li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.75);
+}
+.page-wrapper .col-left .menu ol li::before {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.6);
+  content: "0" counter(menucounter);
+  top: -20px;
+}
+.page-wrapper .col-left .menu ol li::marker {
+  font-size: 0;
+}
+.page-wrapper .col-left .menu ol li.active a {
+  color: white;
+}
+.page-wrapper .col-left .menu ol li.active::before {
+  color: white;
+}
+.page-wrapper .col-left .menu ol li.active::after {
+  width: 200%;
+  position: absolute;
+  height: 0.1rem;
+  content: "";
+  bottom: 0;
+  left: 0;
+  border-bottom: 0.1rem solid white;
+}
+.page-wrapper .col-left .footer {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+.page-wrapper .col-left .footer .top {
+  font-size: 1.5rem;
+  flex: 1;
+  background-color: #e2743e;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.page-wrapper .col-left .footer .top img {
+  cursor: pointer;
+}
+.page-wrapper .col-left .footer .bottom {
+  flex: 4;
+  background-image: url(next_img.HASH_REF_3e1bbd5bc1a02f36282556a24bfa7a0f.jpg);
+  background-size: cover;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.page-wrapper .col-left .footer .bottom img {
+  cursor: pointer;
+}
+.page-wrapper .col-center {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+.page-wrapper .col-center .heading {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2rem 6rem;
+}
+.page-wrapper .col-center .heading h2 {
+  font-family: "Gilroy-ExtraBold", sans-serif;
+  text-transform: uppercase;
+  font-size: 4rem;
+  margin: 0;
+}
+.page-wrapper .col-center .heading h2 span {
+  color: white;
+  text-shadow: -1px -1px 0, -1px -1px 0 #e39074, 1px 1px 0 #e39074;
+}
+.page-wrapper .col-center .heading h3 span {
+  font-family: "Gilroy-ExtraBold", sans-serif;
+}
+.page-wrapper .col-center .hero {
+  flex: 3;
+  background-image: url(hero.HASH_REF_236ecf51b39299232d7b2bb67bf2802c.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 6rem;
+}
+.page-wrapper .col-center .hero .container {
+  width: 80%;
+}
+.page-wrapper .col-center .hero .container h2 {
+  color: white;
+  font-family: "Gilroy-ExtraBold", sans-serif;
+  font-size: 3rem;
+}
+.page-wrapper .col-center .hero .container .actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-wrapper .col-right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+/*# sourceMappingURL=index.HASH_REF_4de028134260206e0a78a579950095e0.css.map */

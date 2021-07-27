@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="88cb57c2d2c035cc8f27b85988118e24">
+    <title>Landing Page</title>
+</head>
+<body>
+    <main>
+        <div class="page-wrapper">
+            <div class="col-left">
+                <div class="menu">
+                    <h1>Plus &amp; Nest</h1>
+                    <ol>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li class="active"><a href="#">Blog</a></li>
+                        <li><a href="#">Stock</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ol>
+                </div>
+                <div class="footer">
+                    <div class="top">
+                        <p>Next Up</p>
+                        <img src="f127ae68b586e84e528cb60f5234405d" alt="Arrow pointing to the right">
+                    </div>
+                    <div class="bottom">
+                        <img src="557adf898e673a847a56fe6251d03ff8" alt="Image of a spinning circle">
+                        <img src="97e3425aadc067b0dc2974399b9cb499" alt="Plus sign">
+                    </div>
+                </div>
+            </div>
+            <div class="col-center">
+                <div class="heading">
+                    <h2>Plus <span>&amp;</span> Nest</h2>
+                    <h3>A <span>Speaker and Headphones</span> in coexistence</h3>
+                </div>
+                <div class="hero">
+                    <h2>The Private Side of Music</h2>
+                    <div class="actions">
+                        <img src="50e6621047ec586b6e353ba9147cb660" alt="Icon of an eye">
+                        <img src="edaf1cd208cab14420cb472e1999901d" alt="Icon for sharing">
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="hero2">
+                    <div class="top">
+                        <img src="97fddc607b53d33000d5734c0b227223" alt="Search icon">
+                    </div>
+                    <div class="bottom">
+                        <h2>Unified Experience</h2>
+                        <div class="arrows">
+                            <img src="91af74198e8a2b3c46090ac10220de94" alt="arrow pointing left">
+                            <img src="279d2266ca755d13786ec1af6c190ada" alt="arrow pointing right">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="left">
+                        <p>This is a bunch of place holder text for the product description or something such as that</p>
+                        <div class="actions">
+                            <div class="likes">
+                                <img src="d0abb51dad7b54a0405bb5c62bb9bbe1" alt="Thumb up emoji for likes">
+                                <span>1234</span>
+                            </div>
+                            <div class="share">
+                                <img src="edaf1cd208cab14420cb472e1999901d" alt="Share icon">
+                                <span>Share</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <h2>Speaker <span>&amp;</span> Headphones</h2>
+                        <p>Coded By:</p>
+                        <p class="author">Derek Marshall</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html><script src="4ad0979c663ae1096c31c630282fb70e"></script>
