@@ -1,9 +1,10 @@
 {
   "name": "BasicLandingPage",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.html",
   "license": "MIT",
   "scripts": {
+    "build": "parcel build src/index.html",
     "serve": "parcel serve src/index.html"
   },
   "dependencies": {
