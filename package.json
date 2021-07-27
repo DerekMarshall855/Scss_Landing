@@ -1,15 +1,13 @@
 {
   "name": "BasicLandingPage",
   "version": "1.0.0",
-  "main": "index.html",
+  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "build": "parcel build src/index.html",
     "serve": "parcel serve src/index.html"
   },
-  "dependencies": {
-    "sass": "^1.36.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@parcel/transformer-sass": "2.0.0-beta.2",
     "parcel": "^2.0.0-beta.2"

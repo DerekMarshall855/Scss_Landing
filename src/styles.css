@@ -1,0 +1,241 @@
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url(./Gilroy-Light.otf);
+}
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url(./Gilroy-ExtraBold.otf);
+}
+html {
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gilroy-Light", sans-serif;
+}
+
+.page-wrapper {
+  display: flex;
+  height: 100vh;
+}
+.page-wrapper .col-left {
+  flex: 1;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.page-wrapper .col-left .menu {
+  flex: 3;
+  padding: 2rem 4rem;
+  overflow: hidden;
+}
+.page-wrapper .col-left .menu h1 {
+  color: white;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+}
+.page-wrapper .col-left .menu ol {
+  margin: 2rem 0rem;
+  padding: 0rem;
+}
+.page-wrapper .col-left .menu ol li {
+  font-size: 1.2rem;
+  margin: 3rem 0;
+  padding: 0.5rem 0;
+  position: relative;
+  counter-increment: menucounter;
+}
+.page-wrapper .col-left .menu ol li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.75);
+}
+.page-wrapper .col-left .menu ol li::before {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.6);
+  content: "0" counter(menucounter);
+  top: -20px;
+}
+.page-wrapper .col-left .menu ol li::marker {
+  font-size: 0;
+}
+.page-wrapper .col-left .menu ol li.active {
+  color: white;
+}
+.page-wrapper .col-left .menu ol li.active a {
+  color: white;
+}
+.page-wrapper .col-left .menu ol li.active::before {
+  color: white;
+}
+.page-wrapper .col-left .menu ol li.active::after {
+  width: 200%;
+  position: absolute;
+  height: 1px;
+  content: "";
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid white;
+}
+.page-wrapper .col-left .footer {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+.page-wrapper .col-left .footer .top {
+  font-size: 1.5rem;
+  flex: 1;
+  background-color: #e2743e;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.page-wrapper .col-left .footer .top img {
+  cursor: pointer;
+}
+.page-wrapper .col-left .footer .bottom {
+  flex: 4;
+  background-image: url(./img/next_img.jpg);
+  background-size: cover;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.page-wrapper .col-left .footer .bottom img {
+  cursor: pointer;
+}
+.page-wrapper .col-center {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+.page-wrapper .col-center .heading {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2rem 6rem;
+}
+.page-wrapper .col-center .heading h2 {
+  font-family: "Gilroy-ExtraBold", sans-serif;
+  text-transform: uppercase;
+  font-size: 4rem;
+  margin: 0;
+}
+.page-wrapper .col-center .heading h2 span {
+  color: white;
+  text-shadow: -1px -1px 0, -1px -1px 0 #e39074, 1px 1px 0 #e39074;
+}
+.page-wrapper .col-center .heading h3 span {
+  font-family: "Gilroy-ExtraBold", sans-serif;
+}
+.page-wrapper .col-center .hero {
+  flex: 3;
+  background-image: url(./img/hero.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 6rem;
+}
+.page-wrapper .col-center .hero .container {
+  width: 50%;
+}
+.page-wrapper .col-center .hero .container h2 {
+  color: white;
+  font-family: "Gilroy-ExtraBold", sans-serif;
+  font-size: 3rem;
+}
+.page-wrapper .col-center .hero .container .actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-wrapper .col-center .hero .container .actions img {
+  cursor: pointer;
+}
+.page-wrapper .col-right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+.page-wrapper .col-right .hero2 {
+  background-image: url(./img/hero2.jpg);
+  background-size: cover;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.page-wrapper .col-right .hero2 .top {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem;
+}
+.page-wrapper .col-right .hero2 .top img {
+  cursor: pointer;
+}
+.page-wrapper .col-right .hero2 .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+.page-wrapper .col-right .hero2 .bottom h2 {
+  color: white;
+  font-family: "Gilroy-ExtraBold", sans-serif;
+  font-size: 2.5rem;
+}
+.page-wrapper .col-right .footer {
+  flex: 2;
+  display: flex;
+}
+.page-wrapper .col-right .footer .left {
+  flex: 1;
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  line-height: 1.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.page-wrapper .col-right .footer .left .actions, .page-wrapper .col-right .footer .left .likes, .page-wrapper .col-right .footer .left .share {
+  display: flex;
+  align-items: center;
+}
+.page-wrapper .col-right .footer .left .likes {
+  margin-right: 2rem;
+}
+.page-wrapper .col-right .footer .left .likes span, .page-wrapper .col-right .footer .left .share span {
+  margin-left: 0.5rem;
+}
+.page-wrapper .col-right .footer .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.page-wrapper .col-right .footer .right h2 {
+  font-size: 2.5rem;
+  font-family: "Gilroy-ExtraBold", sans-serif;
+}
+.page-wrapper .col-right .footer .right h2 span {
+  color: white;
+  text-shadow: -1px -1px 0, -1px -1px 0 #e39074, 1px 1px 0 #e39074;
+  display: block;
+}
+.page-wrapper .col-right .footer .right p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+.page-wrapper .col-right .footer .right p.author {
+  font-family: "Gilroy-ExtraBold", sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */
